@@ -1,41 +1,82 @@
-Lead Performance Dashboard in Power BI
-Project Overview
-This Power BI dashboard provides a comprehensive view of lead and sales performance, tailored to track essential metrics in the lead-to-sale process. It is designed for sales and marketing teams to gain insights into lead quality, conversion rates, and sales values across different locations and property types.
+# Lead Performance Dashboard in Power BI
 
-Dashboard Features
-The dashboard includes the following key metrics:
+## Project Overview
 
-Average Leads: The average number of leads over the selected period.
-Budget: Tracks budget allocation for lead generation.
-Closed Deal Conversion Rate: Percentage of leads that resulted in closed deals.
-Sales Conversion Rate: Percentage of total leads that were converted to sales.
-Average Sold Unit Value: The average value per sold unit.
-Total Sold Units Value: Sum of the values of all sold units.
-Total Sales Value: Total revenue generated from sales.
-Number of Sold Units: Total units sold in the selected period.
-Number of Sales: Total sales transactions.
-Number of Leads: Total leads generated.
-Filters and Slicers
-Users can filter the dashboard by:
+This Power BI dashboard connects directly to a database as the data source, providing real-time and dynamic visualization of lead and sales performance. 
+The dashboard is designed for management, offering insights into lead generation, conversion rates, and sales values across different locations, property types, and lead sources.
 
-Location: Filter data by specific geographic areas.
-Property Type: Focus on different types of properties (e.g., residential, commercial).
-Lead Source: Filter by the origin of the leads, such as online campaigns, referrals, or events.
-Budget Range: Set a range for the budget spent.
-Sales Unit Range: Define the range of sales units to analyze.
-Sold Unit Range: Specify a range for sold units.
-Date Range: Filter by year, month, and day.
-Visualizations
-The dashboard includes a variety of visualizations to provide in-depth insights:
+---
 
-KPI Cards: Key metrics are displayed in cards for quick overview, such as Average Leads, Closed Deal Conversion Rate, and Total Sales Value.
-Charts:
-Number of Leads per Type: Shows distribution of leads by type.
-Average Time to Sell a Unit in Months per Property Type: Visualizes time efficiency in sales across property types.
-Total Sold Units per Location: Displays geographic distribution of sold units.
-Number of Generated Leads per Period: Time-based view of lead generation trends.
-Number of Leads per Source: Highlights which sources are most effective in generating leads.
-Usage Instructions
-Opening the Dashboard: Download the .pbix file from the pbix/ folder and open it in Power BI Desktop.
-Using Filters: Select filters to drill down into specific data, such as location, property type, or lead source. Use date filters to analyze trends over time.
-Interpreting Metrics: Each KPI card and chart is updated dynamically based on the selected filters, providing a real-time view of lead and sales performance.
+## Dashboard Features
+
+### Key Metrics
+
+- **Average Leads Budget**
+- **Closed Deal Conversion Rate**
+- **Sales Conversion Rate**
+- **Average Sold Unit Value**
+- **Total Sold Units Value**
+- **Total Sales Value**
+- **Number of Sold Units**
+- **Number of Sales**
+- **Number of Leads**
+
+### Filters and Slicers
+
+- **Location**: Filter by areas
+- **Property Type**: View specific property categories 
+- **Lead Source**: Filter by Source of leads 
+- **Budget Range**:  budget range of the customers
+- **Sales Unit Range**: ranges of sales units
+- **Sold Unit Range**: the range of sold units
+- **Date Range**: Filter by range of dates of the lead
+- **Year**: Filter by year of the lead
+- **month**: Filter by month of the lead
+- **day**: Filter by day of the lead
+
+
+---
+
+## Visualizations
+
+### KPI Cards
+Each key metric is displayed prominently in KPI cards to provide a quick snapshot of lead and sales performance.
+
+### Detailed Charts
+
+- **Number of Leads per Type**: Distribution of leads by type
+- **Average Time to Sell a Unit in Months per Property Type**: Time efficiency in sales per property type
+- **Total Sold Units per Location**: Geographic view of unit sales
+- **Number of Generated Leads per Period**: Lead generation trends over time
+- **Number of Leads per Source**: Highlights the effectiveness of different lead sources
+
+---
+
+## Usage Instructions
+
+1. **Download and Open**: Download the `.pbix` file from the `pbix/` folder and open it in Power BI Desktop.
+2. **Database Connection**: Ensure the database is accessible for Power BI to fetch live data.
+3. **Apply Filters**: Use the slicers to filter by location, property type, lead source, budget range, sales unit range, sold unit range, and date range.
+4. **Analyze KPIs and Visuals**: Explore the KPI cards and charts, which automatically update based on the selected filters, giving you a real-time view of the lead-to-sale pipeline.
+
+---
+
+## Screenshots
+
+### Dashboard Overview
+
+![Dashboard Overview](screenshots/dashboard-overview.png)
+
+### Lead Conversion Funnel
+
+![Lead Conversion Funnel](screenshots/lead-conversion-funnel.png)
+
+### Geographic Distribution
+
+![Geographic Distribution](screenshots/geographic-distribution.png)
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
