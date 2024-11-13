@@ -54,10 +54,9 @@ Each key metric is displayed prominently in KPI cards to provide a quick snapsho
 
 ## Usage Instructions
 
-1. **Download and Open**: Download the `.pbix` file from the `pbix/` folder and open it in Power BI Desktop.
-2. **Database Connection**: Ensure the database is accessible for Power BI to fetch live data.
-3. **Apply Filters**: Use the slicers to filter by location, property type, lead source, budget range, sales unit range, sold unit range, and date range.
-4. **Analyze KPIs and Visuals**: Explore the KPI cards and charts, which automatically update based on the selected filters, giving you a real-time view of the lead-to-sale pipeline.
+1. **Download and Open**: Download the `.pbix` file and open it in Power BI Desktop.
+2. **Apply Filters**: Use the slicers to filter by location, property type, lead source, budget range, sales unit range, sold unit range, and date range.
+3. **Analyze KPIs and Visuals**: Explore the KPI cards and charts, which automatically update based on the selected filters, giving you a real-time view of the lead-to-sale pipeline.
 
 ---
 
@@ -65,18 +64,7 @@ Each key metric is displayed prominently in KPI cards to provide a quick snapsho
 
 ### Dashboard Overview
 
-![Dashboard Overview](screenshots/dashboard-overview.png)
+![Dashboard Overview](dashboard-overview.png)
 
-### Lead Conversion Funnel
 
-![Lead Conversion Funnel](screenshots/lead-conversion-funnel.png)
 
-### Geographic Distribution
-
-![Geographic Distribution](screenshots/geographic-distribution.png)
-
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
