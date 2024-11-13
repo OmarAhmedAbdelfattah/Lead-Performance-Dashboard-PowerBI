@@ -49,6 +49,7 @@ Each key metric is displayed prominently in KPI cards to provide a quick snapsho
 - **Total Sold Units per Location**: Geographic view of unit sales
 - **Number of Generated Leads per Period**: Lead generation trends over time
 - **Number of Leads per Source**: Highlights the effectiveness of different lead sources
+- **Distribution of Sold Units per Property Type**: Displays the proportion of sold units across different property types.
 
 ---
 
