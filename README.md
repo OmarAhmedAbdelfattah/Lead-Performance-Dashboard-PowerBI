@@ -60,8 +60,6 @@ Each key metric is displayed prominently in KPI cards to provide a quick snapsho
 
 ---
 
-## Screenshots
-
 ### Dashboard Overview
 
 ![Dashboard Overview](dashboard-overview.png)
